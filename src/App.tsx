@@ -71,7 +71,7 @@ export default function App() {
       <div className='absolute top-20 right-1/2 text-[#FFEB3B] opacity-60 text-3xl select-none pointer-events-none z-0'>✦</div>
 
       {/* Navbar */}
-      <nav className="sticky top-0 z-50 bg-white/60 backdrop-blur-md border-b-2 border-[#673AB7] shadow-sm">
+      <nav className="fixed w-full top-0 z-50 bg-white/60 backdrop-blur-md border-b-2 border-[#673AB7] shadow-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="flex justify-between md:justify-center items-center py-2 min-h-[80px]">
             <div className="flex-shrink-0 flex items-center md:absolute md:left-4 z-20">
