@@ -1,0 +1,6 @@
+{
+  "name": "Magic Multi eventos",
+  "description": "Landing page para casa de fiestas infantiles Magic Multi eventos",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

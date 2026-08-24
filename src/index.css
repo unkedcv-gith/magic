@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lavender-100: #EDE7F6;
+  --color-lavender-200: #D1C4E9;
+  --color-lavender-300: #B39DDB;
+  --color-purple-accent: #673AB7;
+  --color-purple-dark: #512DA8;
+  --color-yellow-accent: #FFEB3B;
+  --color-yellow-dark: #FBC02D;
+  
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .dashed-border-kawaii {
+    border: 3px dashed var(--color-purple-accent);
+    border-radius: 2rem;
+  }
+}
+
+body {
+  background-color: var(--color-lavender-100);
+  color: #333333;
+}
